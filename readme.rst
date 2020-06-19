@@ -12,7 +12,7 @@ Technology
 - Bootstrap
 - Less
 
-![Main page](screanshoots/1.png)
+![Main page](/screanshoots/1.png)
 
 ![Main page](/screanshoots/2.png)
 
