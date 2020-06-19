@@ -5,7 +5,9 @@
       <p><a class="btn btn-primary btn-lg" href="<?= base_url() ?>find" role="button">Zobacz przejazdy</a></p>
     </div>
 </div>
-<div class="last">
+
+
+<div class="why">
     <div class="container">
         <h3 class="display-6 text-center">Dlaczego warto ?</h3>
         <div class="row">
@@ -29,6 +31,8 @@
 </div>
 
 <div class="info">
+    <div class="container">
+    <h3 class="display-6 text-center">Korzyści</h3>
     <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
             <h5>Can I use Landkit for my clients? </h5>
@@ -50,3 +54,19 @@
         </div>
     </div>
 </div>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <p>Copyright <a href="<?= base_url() ?>" class="link">Czartery</a></p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 text-right">
+                <a href="#" class="link"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+                <a href="#" class="link"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                <a href="#" class="link"><i class="fa fa-snapchat fa-2x" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>

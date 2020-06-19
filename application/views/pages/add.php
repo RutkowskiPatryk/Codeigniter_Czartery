@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container add">
 <h3 class="display-6">Dodaj nowy przejazd</h3>
 
 <div class="form_error">

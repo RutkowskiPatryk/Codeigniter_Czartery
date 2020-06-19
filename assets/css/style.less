@@ -1,0 +1,187 @@
+@main-color: #ffffff;
+@second-color: #869ab8;
+@error-color: rgba(255, 0, 0, 0.822);
+
+.section-margin(@top: 5%, @bottom: 5%)
+{
+    margin-top: @top;
+    margin-bottom: @bottom;
+}
+
+.section-padding(@top: 10%, @bottom: 10%)
+{
+    padding-top: @top;
+    padding-bottom: @bottom;
+}
+
+.section-padding-side(@top: 5%, @bottom: 5%)
+{
+        padding-left: @top;
+        padding-right: @bottom;
+}
+
+.form_error
+{
+    color: @error-color;
+}
+
+
+//-------------------------- HOME -------------------------------------
+
+.jumbotron
+{
+    background: url(../img/tlo.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    .section-padding();
+
+    h2
+    {
+        color: @main-color;
+    }
+
+    p
+    {
+        color: @main-color;
+    }
+
+    a 
+    {
+        .section-margin(5%,0%);
+    }
+}
+
+.why
+{
+    .section-padding(5%);
+
+    h3
+    {
+        .section-margin(0, 5%);
+    }
+
+    h5 
+    {
+        .section-margin(5%, 7%);
+    }
+
+    p 
+    {
+        text-align: justify;
+        .section-padding-side();
+    }
+}
+
+
+.info
+{
+    background-color: #1b2a4e;
+    .section-padding(5%);
+
+    h3 
+    {
+        color: @main-color;
+        .section-margin(0, 5%);
+    }
+
+    h5 
+    {
+        color: darken(@main-color, 20%);
+    }
+
+    p 
+    {
+        color: @second-color;
+        .section-margin(5%, 10%);
+        .section-padding-side();
+    }
+}
+
+
+footer
+{
+    .section-padding(2%,1%);
+
+    p 
+    {
+        font-size: 16px;
+    }
+
+    i 
+    {
+        .section-padding-side(3%, 3%);
+    }
+
+    .link 
+    {
+        font-weight: 600;
+        color: #55595c;
+    }
+
+    .link:hover 
+    {
+        color: @second-color;
+        text-decoration: none;
+    }
+}
+
+//--------------------------------- ADD  -------------------------------------------------------
+
+.add
+{
+    .section-margin();
+
+    h3 
+    {
+        .section-margin();
+    }
+
+}
+
+//--------------------------------- FIND  -------------------------------------------------------
+
+.find
+{
+    .section-margin();
+
+    h3 
+    {
+        .section-margin(0%);
+    }
+}
+
+
+//--------------------------------- SINGLE -------------------------------------------------------
+
+.single
+{
+    .section-margin();
+
+    .direction
+    {
+        .section-margin(2%);
+    }
+}
+
+
+//--------------------------------- LOGIN -------------------------------------------------------
+
+.login
+{
+    .section-margin();
+
+    h3 
+    {
+        .section-margin(0%);
+    }
+}
+
+
+//--------------------------------- PANEL-------------------------------------------------------
+
+.panel
+{
+    .section-margin();
+}

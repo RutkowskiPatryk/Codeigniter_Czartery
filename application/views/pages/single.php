@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container single">
     <div class="row">
             <div class="col-lg-10">
                 <h3>Szczególy przejazdu</h3>
@@ -10,9 +10,9 @@
         </div>
     
 
-    <h3 class="display-6 text-center"><?php echo $info['start']; ?>  <i class="fa fa-arrow-right" aria-hidden="true"></i> <?= $info['end']; ?></h3>
+    <h3 class="display-6 text-center direction"><?php echo $info['start']; ?>  <i class="fa fa-arrow-right" aria-hidden="true"></i> <?= $info['end']; ?></h3>
 
-    <table class="table table-borderless text-center">
+    <table class="table table-borderless text-center" id="table">
   <tbody>
     <tr>
       <th>Data</th>
@@ -24,7 +24,7 @@
     </tr>
     <tr>
       <th>Telefon</th>
-      <td><?php echo $info['phone'] ?></td>
+      <td id="phone"><?php echo $info['phone'] ?></td>
     </tr>
     <tr>
       <th>Uwagi</th>
@@ -33,3 +33,4 @@
   </tbody>
 </table>
 </div>
+<script src="<?=base_url();?>assets/js/script.js"></script>

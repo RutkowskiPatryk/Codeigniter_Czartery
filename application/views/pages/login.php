@@ -4,7 +4,7 @@
       redirect('pages/panel');
   }
 ?>
-<div class="container">
+<div class="container login">
 <h3 class="display-6">Logowanie administratora</h3>
 
 <?php

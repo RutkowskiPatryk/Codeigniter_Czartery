@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container find">
     <h3 class="display-6">Szukaj przejazdu</h3>
 
     <?php foreach($drives as $drive): ?>
